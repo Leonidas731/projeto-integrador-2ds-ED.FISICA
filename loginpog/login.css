@@ -1,0 +1,84 @@
+body{
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: #ffffff;
+
+
+}
+.context{
+    width: 500px;
+    height: 300px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    background: rgba(255, 255, 255,);
+    backdrop-filter: blur(3px);
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.1);
+
+.titulo{
+    color: rgb(199, 255, 242);
+     text-align: center;
+     margin-top: 10px;
+}
+.email{
+    width: 380px;
+    border: 2px solid rgba(0, 255, 234, 0.49);
+    border-radius: 20px;
+    background: rgba(0, 82, 79, 0.376);
+    backdrop-filter: blur(10px);
+
+}
+.senha{
+    width: 380px;
+    border: 2px solid rgba(0, 255, 234, 0.49);;
+    border-radius: 20px;
+    background: rgba(0, 82, 79, 0.376);
+    backdrop-filter: blur(10px);
+
+}
+
+}
+.entrar{
+    border: 2px solid rgba(0, 255, 234, 0.49);
+    border-radius: 20px;
+    background: rgba(0, 82, 79, 0.376);
+    backdrop-filter: blur(3px);
+    width: 140px;
+    height: 70px;
+    margin-left: 177px;
+    margin-top: 30px;
+    font-size:large ;
+    font-family: "Roboto", sans-serif;
+    color: rgb(199, 255, 242);
+    box-shadow:  0 0 5px rgba(0, 255, 234, 0.595);
+    transition: 0.5s;
+}
+.entrar:hover{
+    background: rgba(0, 89, 104, 0.657);
+    border: 2px solid rgba(0, 255, 234, 0.49);
+    color: rgb(162, 255, 233);
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(0, 255, 234, 0.595);
+}
+.email, .senha{
+    width: 300px;
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 20px;
+    color: rgb(199, 255, 242);;
+}
+.login_do_colaborador{
+    background: rgba(0, 192, 186, 0.534);
+    border: 2px solid rgba(0, 255, 234, 0.49);
+    border-radius: 20px;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    margin-left: 200px;
+    margin-top: 100px;
+    color: rgb(162, 255, 233);
+}
