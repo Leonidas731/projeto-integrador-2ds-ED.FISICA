@@ -7,10 +7,10 @@ function validarELogar() {
         return;
     }
     console.log("Função validarELogar() foi chamada");
-    console.log("URL de redirecionamento: ../paginaInicialCliente/cliente.html");
+    console.log("URL de redirecionamento: ../paginaMapa/mapa.html");
     
     // Teste 1: Verifica se a URL está correta
-    const url = "../paginaInicialCliente/cliente.html";
+    const url = "../paginaMapa/mapa.html";
     console.log("Tentando redirecionar para: " + url);
     
     // Teste 2: Tenta o redirecionamento
@@ -23,20 +23,3 @@ function validarELogar() {
     logar();
 }
 
-
-function log() {
-    console.log("Função logar() foi chamada");
-    console.log("URL de redirecionamento: ../logindocolaborador/funcionarioindex.html");
-    
-    // Teste 1: Verifica se a URL está correta
-    const url = "../logindocolaborador/funcionarioindex.html";
-    console.log("Tentando redirecionar para: " + url);
-    
-    // Teste 2: Tenta o redirecionamento
-    try {
-        window.location.href = url;
-        console.log("Redirecionamento executado");
-    } catch(error) {
-        console.error("Erro ao redirecionar: " + error);
-    }
-}
