@@ -1,3 +1,28 @@
 body {
     background-color: rgb(1, 187, 57);
 }
+.popup-container {
+  display: none; /* Fica invisível */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Fundo escuro transparente */
+  justify-content: center;
+  align-items: center;
+}
+
+/* Quando ativo, mostra o pop-up */
+.popup-container.mostrar {
+  display: flex; /* Exibe na tela */
+}
+
+/* A caixinha branca do pop-up */
+.popup-caixa {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  width: 300px;
+}

@@ -15,3 +15,29 @@ function Logar() {
     }
     logar();
 }
+const abrirBtn = document.getElementById('abrir-btn');
+const fecharBtn = document.getElementById('fechar-btn');
+const popup = document.getElementById('meu-popup');
+
+// Mostrar pop-up
+abrirBtn.addEventListener('click', () => {
+  popup.classList.add('mostrar');
+});
+
+// Fechar pop-up
+fecharBtn.addEventListener('click', () => {
+  popup.classList.remove('mostrar');
+});
+const abrirBtn = document.getElementById('abrir-btn');
+const fecharBtn = document.getElementById('fechar-btn');
+const popup = document.getElementById('meu-popup');
+
+// Mostrar pop-up
+abrirBtn.addEventListener('click', () => {
+  popup.classList.add('mostrar');
+});
+
+// Fechar pop-up
+fecharBtn.addEventListener('click', () => {
+  popup.classList.remove('mostrar');
+});
