@@ -10,7 +10,7 @@ function validarELogar() {
     console.log("URL de redirecionamento: ../paginaMapa/mapa.html");
     
     // Teste 1: Verifica se a URL está correta
-    const url = "../paginaMapa/mapa.html";
+    const url = "C:/Users/parana/projeto-integrador-2ds-ED.FISICA/paginaMapa/mapa.html";
     console.log("Tentando redirecionar para: " + url);
     
     // Teste 2: Tenta o redirecionamento
